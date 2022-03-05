@@ -1,0 +1,12 @@
+#board{
+  display: grid;
+grid-template-columns: repeat(3, 20vh);
+grid-template-rows: repeat(3, 20vh);
+font-size: 2rem;
+}
+.square{
+ background-color: red;
+}
+.square:nth-child(even){
+ background-color: blue;
+}
